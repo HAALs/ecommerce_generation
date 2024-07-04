@@ -1,7 +1,14 @@
-import NavBar from "./components/NavBar/NavBar"
+import NavBar from "./components/NavBar/NavBar";
+
+import Tienda from "./pages/Tienda";
 
 function App() {
-  return <><NavBar/></>;
+  return (
+    <>
+      <NavBar />
+     <Tienda />
+    </>
+  );
 }
 
 export default App;
